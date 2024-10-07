@@ -66,7 +66,7 @@ sr.reveal('.top-header',{})
 
 // for mail purpose
 document.getElementById('mailButton').addEventListener('click', function() {
-  window.location.href = 'mailto:your-email@example.com?subject=Subject&body=Message';
+  window.location.href = 'himanshuu004@gmail.com?subject=Subject&body=Message';
 });
 
 
