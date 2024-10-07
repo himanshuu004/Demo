@@ -309,11 +309,13 @@ nav{
     margin-bottom: 5em;
 }
 .top-header h1{
+    font-size: 2.5em;
     font-weight: 600;
     color: rgb(255, 255, 255);
     margin-bottom: 10px;
 }
 .top-header span{
+    font-size: 1.5rem;
     color: #000000;
 }
 h3{
@@ -467,12 +469,13 @@ h3{
 .contact-info:hover.contact-info h2,
 .contact-info:hover.contact-info p,
 .contact-info:hover.contact-info i{
-    color: #777;
+    color: #000000;
     z-index: 2;
 }
 
 /* ----- CONTACT FORM ----- */
 .form-control{
+    color: white;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -485,6 +488,7 @@ h3{
 		
 }
 .input-field{
+    color: white;
     width: 50%;
     height: 55px;
     background: transparent;
@@ -494,6 +498,7 @@ h3{
     outline: none;
 }
 textarea{
+    color: white;
     width: 100%;
     height: 250px;
     background: transparent;
@@ -653,6 +658,13 @@ footer{
     .project-box{
         width: 100%;
     }
+    .top-header h1{
+        font-size: 2.1em;
+    }
+    .top-header span{
+        font-size: 1rem;
+        color: #ffffff;
+    }
     .form-inputs{
         flex-direction: column;
     }
@@ -660,3 +672,4 @@ footer{
         width: 100%;
     }
 }
+

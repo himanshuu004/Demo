@@ -33,7 +33,7 @@ function headerShadow() {
 
 /* ----- TYPING EFFECT ----- */
 var typingEffect = new Typed(".typedText",{
-  strings : ["Developer","Designer","Front-end"],
+  strings : ["Front-end","Developer","Designer"],
   loop : true,
   typeSpeed : 100, 
   backSpeed : 80,
@@ -63,6 +63,12 @@ sr.reveal('.project-box',{interval: 200})
 
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
+
+// for mail purpose
+document.getElementById('mailButton').addEventListener('click', function() {
+  window.location.href = 'mailto:your-email@example.com?subject=Subject&body=Message';
+});
+
 
 /* ----- ## -- SCROLL REVEAL LEFT_RIGHT ANIMATION -- ## ----- */
 
